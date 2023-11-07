@@ -1,0 +1,9 @@
+version: 2
+
+
+sources:
+  - name: raw
+    schema: Dbt_lecture
+    tables: 
+      - name: sales
+        identifier: raw_gz_sales
